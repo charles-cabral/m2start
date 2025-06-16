@@ -1,0 +1,10 @@
+services:
+  php-fpm:
+    build:
+      context: .warden/php-fpm
+      dockerfile: Dockerfile
+
+  php-debug:
+    build:
+      context: .warden/php-debug
+      dockerfile: Dockerfile
