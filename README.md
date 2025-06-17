@@ -81,12 +81,12 @@ Depois que o ambiente estiver no ar e o banco importado, acesse sua loja via:
 https://<domínio-configurado>.test
 ```
 
-> Exemplo: `https://dentalspeed.test`
+> Exemplo: `https://yourproject.test`
 
 Certifique-se de que o domínio esteja no seu `/etc/hosts` com:
 
 ```
-127.0.0.1 dentalspeed.test
+127.0.0.1 yourproject.test
 ```
 
 ---

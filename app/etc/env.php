@@ -82,7 +82,7 @@ return [
     'cache' => [
         'frontend' => [
             'default' => [
-                'id_prefix' => 'dentalspeed_',
+                'id_prefix' => 'yourproject_',
                 'backend' => 'Magento\\Framework\\Cache\\Backend\\Redis',
                 'backend_options' => [
                     'server' => 'redis',
@@ -94,7 +94,7 @@ return [
                 ]
             ],
             'page_cache' => [
-                'id_prefix' => 'dentalspeed_',
+                'id_prefix' => 'yourproject_',
                 'backend' => 'Magento\\Framework\\Cache\\Backend\\Redis',
                 'backend_options' => [
                     'server' => 'redis',
